@@ -7,7 +7,7 @@
 - Shift key = Accelerate movement.
 - Ctrl key = Slow down movement. 
 - Left mouse button plus movement = Pan camera up/down and left/right.
-- R = Relocate camera back to the starting position.
+- R = Relocate camera back to starting position.
 - P = Activate/pause snow particulates.
 - Tabulator key = DOF is active while this is pressed down.
 - I = Increase range and intensity of the one point light in the scene while this is pressed down.
