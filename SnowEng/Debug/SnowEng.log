@@ -1,0 +1,6 @@
+﻿  compilation object save succeeded; see C:\Users\Drachi\Downloads\Renderers\SnowEng\Debug\BlurPS.cso
+  compilation object save succeeded; see C:\Users\Drachi\Downloads\Renderers\SnowEng\Debug\CircleOfConfusionPS.cso
+C:\Users\Drachi\Downloads\Renderers\SnowEng\SnowEng\Shaders\ComputeShader.hlsl(48,1-21): warning X3554: unknown attribute numthreads, or attribute invalid for this statement
+FXC : error X4541: vertex shader must minimally write all four components of POSITION
+  
+  compilation failed; no code produced

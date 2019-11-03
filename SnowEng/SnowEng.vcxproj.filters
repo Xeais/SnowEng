@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{025b38fa-cd0b-4ef1-9dc9-3e88f23daee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d422c2af-7d5f-437b-bdfb-362de835ec2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{9909af1e-6fdf-4247-9a7a-71a85aec7248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Particles">
+      <UniqueIdentifier>{cc93d878-cf69-4ca3-8689-af6a9832bb8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCore.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCore.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleShader.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\ParticleIncludes.hlsli">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\SimplexNoise.hlsli">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\Lighting.hlsli">
+      <Filter>Header Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\ParticleCopyDrawCountCS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleDeadListInitCS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleDefaultVS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleEmitCS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticlePS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleUpdateCS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleVS.hlsl">
+      <Filter>Header Files\Shaders\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BlurPS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CircleOfConfusionPS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ComputeShader.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthOfFieldCompPS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PixelShader.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\QuadPS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\QuadVS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyPS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyVS.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VertexShader.hlsl">
+      <Filter>Header Files\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
