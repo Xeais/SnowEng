@@ -1,5 +1,5 @@
 # SnowEng
-![SnowEng](https://user-images.githubusercontent.com/18394014/68080869-794e2700-fe04-11e9-8907-5665254e6c10.png)
+![Snow platform with a cabin, a snow man and three balls](https://user-images.githubusercontent.com/18394014/68080869-794e2700-fe04-11e9-8907-5665254e6c10.png)
 ## Controls
 - WASD = Move camera forth/back and left/right.
 - Space bar = Move camera up.
