@@ -16,4 +16,4 @@
 ## Requirements
 - Windows 10 (Version 1903) – only tested with that version
 - All dependencies are already included.
-- No include pathes / other pathes have to be adjusted because macros are used there.
+- No include pathes / other pathes have to be adjusted because macros are used there. This only applies if you are using [Visual Studio](https://visualstudio.microsoft.com/vs/) ([Community](https://visualstudio.microsoft.com/vs/community/) is completely sufficient). While it's certainly possible to get it working with another IDE, with Visual Studio it will be the easiest, since the renderer was created with it.
