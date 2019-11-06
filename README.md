@@ -16,4 +16,4 @@
 ## Requirements
 - Windows 10 (Version 1903) – only tested with that version
 - All dependencies are already included.
-- No include pathes / other pathes have to be adjusted because macros are used there. This only applies if you are using [Visual Studio](https://visualstudio.microsoft.com/vs/) ([Community](https://visualstudio.microsoft.com/vs/community/) is completely sufficient). While it's certainly possible to get it working with another IDE, with Visual Studio it will be the easiest, since the renderer was created with it.
+- No include pathes / other pathes have to be adjusted because macros are used in the [Visual Studio](https://visualstudio.microsoft.com/vs/) [solution (.sln) file](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019). While it's certainly possible to get it working with another IDE, with Visual Studio ([Community](https://visualstudio.microsoft.com/vs/community/) is completely sufficient) it will be the easiest, as the renderer was obviously created with it.
